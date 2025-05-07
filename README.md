@@ -31,3 +31,22 @@ This is a Flask-based web application featuring three interactive components:
 ```bash
 git clone https://github.com/shashwatMittel/flask-mini-games.git
 cd flask-mini-games
+---
+## 2.Project Structure
+flask-mini-games/
+│
+├── app.py                  # Main Flask application
+├── tictactoe.py            # Tic Tac Toe logic (AI move, winner check)
+├── sudoku_solver.py        # Sudoku solving logic (e.g. backtracking)
+├── requirements.txt        # Python dependencies
+│
+├── templates/              # HTML templates for rendering
+│   ├── index.html          # Home page
+│   └── number_guesser.html # Number guessing game page
+│
+├── static/                 # (Optional) CSS, JS, images
+│   ├── style.css           # Basic styles (if needed)
+│
+└── README.md               # Project documentation
+
+created by Shashwat Mittel
