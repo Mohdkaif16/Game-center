@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AI Number Guesser</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <h1>AI Number Guesser</h1>
+  <p>Guess the number between 1 and 100!</p>
+
+  <form method="post">
+    <input type="number" name="guess" min="1" max="100" required>
+    <button type="submit">Submit Guess</button>
+  </form>
+
+  <p>{{ hint }}</p>
+
+  <a href="/">← Back to Home</a>
+</body>
+</html>
